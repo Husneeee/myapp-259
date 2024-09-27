@@ -8,7 +8,7 @@ export const Header = () => {
 
 	return (
 		<div className="p-4 bg-info d-flex align-items-center justify-content-between">
-			<h1>ReactJS</h1>
+			<h1>ReactJS...</h1>
 
 			<CurrencyList/>
 
