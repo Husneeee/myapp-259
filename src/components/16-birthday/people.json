@@ -1,0 +1,38 @@
+[
+	{
+		"id": 1,
+		"image": "photo-01.jpg",
+		"name": "Banu Korkut",
+		"age": 27,
+		"celebrated": false
+	},
+	{
+		"id": 13,
+		"image": "photo-02.jpg",
+		"name": "Hüseyin Şahin",
+		"age": 28,
+		"celebrated": true
+	},
+	{
+		"id": 11123,
+		"image": "photo-03.jpg",
+		"name": "Sevda Kara",
+		"age": 24,
+		"celebrated": false
+	},
+	{
+		"id": 245,
+		"image": "photo-04.jpg",
+		"name": "Recep Fırat",
+		"age": 27,
+		"celebrated": false
+	},
+	{
+		"id": 456,
+		"image": "photo-05.jpg",
+		"name": "Sevinç Genç",
+		"age": 30,
+		"celebrated": false
+	}
+ 
+]

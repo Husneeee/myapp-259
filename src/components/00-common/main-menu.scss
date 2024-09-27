@@ -1,0 +1,10 @@
+.nav-link.active{
+    background-color: rgb(6, 254, 250);
+    color: black;
+    pointer-events: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
