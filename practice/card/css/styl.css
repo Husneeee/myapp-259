@@ -1,0 +1,98 @@
+:root{
+--color1:rgb(190, 89, 19);
+--color2:rgb(134, 120, 39);
+--color3:rgb(94, 40, 11);
+--color4: rgb(234, 234, 234);
+--color1-op-40:rgba(190, 90, 19, 0.4);
+
+
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    /*body nin fontunu değiştirdik. ikinci bir font olarak sans-serifi belirledik*/
+}
+
+.card{
+    position: relative;/* relative in herhangi bir yan etkisi olmaz*/
+    overflow: hidden;/*taşmaları gizlemek için*/
+    box-shadow: 0 5px 20px black;
+    border-radius: 20px;
+
+}/* taşıyıcı div e verildi ama resime etki etmedi onun için ayrıca vermemiz gerekiyor*/
+
+.card img{
+    width: 100%;/*genişlik*/
+    height: auto;/*yükseklik*/
+    border-radius: 20px;
+}
+
+.card .btn{
+    position: absolute;/* absolute aksi belirtilmediği sürece kendini sayfaya göre yani html e göre ayarlar. ebeveyni ne position verilmeli.bulunduğu katmandan ayrı katmana alır absolut kesin demek*/
+    top: 20px;
+    /*left: 20px; ikisi de üs üste geldiler top ve left ile*/
+    font-size: 2rem;
+    width: 50px;
+    height: 50px;/*tam anlamıyla yuvarlak yapmak için genişlik ve yükseklik verdik*/
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;/*üzerine geldiğinde el işareti çıkması için */
+
+}
+
+.card .btn:hover{
+    box-shadow: 0 0 10px var(--color3);
+}
+
+.card .btn-share{
+    left: 20px;
+    background-color: var(--color1);
+    
+
+}
+
+.card .btn-favorite{
+    right: 20px;
+    background-color: var(--color2);
+    color: var(--color4);
+
+
+}
+
+.card .card-body{
+ padding: 20px;
+}
+
+.card h3{
+    font-size: 2rem;
+    margin: 0;
+    color: var(--color3);
+}
+
+.card p{
+    color: var(--color3);
+}
+
+.card .card-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;/*dikeyde hizalama*/
+    color: var(--color2);
+
+    
+}
+
+.card .card-footer a {
+    text-decoration: none;
+    background-color: var(--color1-op-40);
+    color: var(--color1);
+    padding: 10px 15px;/*üsten alttan 10 yanlardan 15px*/
+    border-radius: 10px;
+}
+
+.card .card-footer a:hover{
+    color: var(--color3);
+}
+
+
